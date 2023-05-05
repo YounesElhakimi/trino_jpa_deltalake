@@ -15,7 +15,7 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "shopusertransaction")
+@Table(name = "shopusertransaction" , schema = "shop_user_transaction_schema")
 public class ShopUserTransaction implements Serializable {
 
     @Id
